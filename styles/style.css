@@ -6,3 +6,30 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/*-----------------------------
+         font style end
+-----------------------------*/
+
+/*------------
+         section
+      ---------------*/
+.container {
+    padding: 60px;
+}
+
+.product-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    align-items: center;
+    color: rgb(99, 99, 99);
+}
+
+.titel {
+    font-size: 4em;
+}
+
+.camera {
+    padding: 2px 30px;
+}
